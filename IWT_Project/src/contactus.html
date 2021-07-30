@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contact Us</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+    <link rel="stylesheet" type="text/css" href="styles/index.css">		
+    <link rel="stylesheet" type="text/css" href="styles/contactus.css">
+
+	<script src = "js/contactus.js"></script>
+	
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+	
+            <img class="logo" src="images/logo.png" alt="Logo">
+		
+        <div class="item2">
+            <input class="searchBar" type="text" placeholder="Explore...">
+            <button class="button button1">Search</button>
+        </div>
+		
+        <div class="item3">
+            <img class="user" src="images/user.png" alt="User">
+			<br/>
+			
+            <button class="button button2">Log in</button>
+            <button class="button button2 ">Sign up</button>
+
+        </div>
+		
+    </header>
+    <section>
+    <nav>
+            <ul>
+                <li><button class="button button3">Home</button></li>
+                <li><button class="button button3">My Dishes</button></li>
+                <li><button class="button button3">My Account</button></li>
+                <br>
+                <li style="color:black; font-family:sans-serif; font-size:16px">What are You Looking For?</li>
+                <br>
+                <ul style="list-style-type:none;">
+                    <li><button class="button button3">Breakfast</button></li>
+                    <li><button class="button button3">Lunch</button></li>
+                    <li><button onclick="document.location = 'dinner.html'" class="button button3">Dinner</button></li>
+                    <li><button onclick="document.location = 'dessert.html'" class="button button3">Desserts</button></li>
+                    <li><button class="button button3">Appetizers</button></li>
+			        <br/>
+                    <li style="color:black; font-family:sans-serif; font-size:16px">Diet & Health</li>
+					<br/>
+                    <ul style="list-style-type:none;">
+                        <li><button class="button button3">Low Calorie</button></li>
+                        <li><button class="button button3">Low Fat</button></li>
+                        <li><button class="button button3">Diabetic</button></li>
+                    </ul>
+                    <br>
+                    <li style="color:black; font-family:sans-serif; font-size:16px">Cooking Style</li>
+                    <br/>
+                    <ul style="list-style-type:none;">
+                        <li><button class="button button3">Quick & Easy</button></li>
+                        <li><button class="button button3">Vegetarian</button></li>
+                        <li><button class="button button3">Vegan</button></li>
+                    </ul>
+                </ul>
+            </ul>
+		</nav>
+		
+		<article>
+		
+		<div class = "cu-text">
+		   <h1>We Want To Hear From You</h1>
+		   <p>Have a Question or an Exciting New Idea? Let's Talk</p>
+		</div>
+		
+		<div class = "background">
+		<div class="wrap">	
+		         <h1>Message to Us</h1>
+			     <h3>Questions or comments please contact us using the form below. We'll be in touch soon.</h3><br/>
+		
+		
+	    <form name="myForm" method="post" action="contactus.php" onsubmit="return validateForm()">
+			
+        First Name:<br/>
+        <input type="text" id="firstname" name="firstname" placeholder="Your First Name.." required><br/><br/>
+		
+        Last Name:<br/>
+        <input type="text" id="lastname" name="lastname" placeholder="Your Last Name.." required><br/><br/>
+		
+        Country:<br/>
+        <input type="text"  id="country" name="country" placeholder="Your Country.." required><br/><br/>
+		
+        E-mail:<br/>
+        <input type="text" id="email" name="email" placeholder="Your E-mail Address.." required><br/><br/>
+		
+        Message:<br/>
+        <input type="text"  id="message" name="message" placeholder="Your Message.." required><br/><br/>
+		
+		<input type="submit" name="submit" value="Submit">
+	
+		</form>
+		
+	    </div>
+        </div>	
+        </article>
+        </section>	
+
+    <footer>
+        <div class="fcolumn1">
+            <ul style="list-style-type:none;">
+                <li><button onclick="document.location = 'contactus.html'" class="button button4">Contact Us</button></li>
+                <li><button class="button button4">About Us</button></li>
+                <li><button class="button button4">Privacy Policy</button></li>
+            </ul>
+        </div>
+        <div class="fcolumn2">
+            <p style="color:white;font-size:20px;">Find Us On Social Media</p>
+            <p>
+                <a href="https://www.facebook.com/" class="fa fa-facebook" target="_blank"></a>
+                <a href="https://www.twitter.com/" class="fa fa-twitter" target="_blank"></a>
+                <a href="https://www.google.com/" class="fa fa-google" target="_blank"></a>
+                <a href="https://www.youtube.com/" class="fa fa-youtube" target="_blank"></a>
+                <a href="https://www.instagram.com/?h1=en" class="fa fa-instagram" target="_blank"></a>
+            </p>
+            <p style="color:white;font-size:20px;">@eliterecipes.com</p>
+        </div>
+		
+        <div class="fcolumn3">
+            <p style="color:white;font-size:20px;">Subscribe for Our Newsletter</p>
+            <input class="searchBar" type="text" placeholder="Enter Your Email">
+        </div>
+		
+        <div class="fcolumn4">
+            <p style="color:white;font-size:20px;">New Kandy Road, Malabe</p>
+            <p style="color:white;font-size:20px;">All Rights Reserved</p>
+        </div>
+		
+    </footer>
+
+</body>
+
+</html>

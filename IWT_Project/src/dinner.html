@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Dinner</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<!---link style sheets--->
+	
+    <link rel="stylesheet" type="text/css" href="styles/index.css">	
+    <link rel="stylesheet" type="text/css" href="styles/dinner.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+            <img class="logo" src="images/logo.png" alt="Logo">
+
+		
+        <div class="item2">
+            <input class="searchBar" type="text" placeholder="Explore...">
+            <button class="button button1">Search</button>
+        </div>
+		
+        <div class="item3">
+            <img class="user" src="images/user.png" alt="User">
+			<br/>
+            <button class="button button2">Log in</button>
+            <button class="button button2 ">Sign up</button>
+
+        </div>
+		
+    </header>
+	
+    <section>
+    <nav>
+            <ul>
+                <li><button class="button button3">Home</button></li>
+                <li><button class="button button3">My Dishes</button></li>
+                <li><button class="button button3">My Account</button></li>
+                <br>
+                <li style="color:black; font-family:sans-serif; font-size:16px">What are You Looking For?</li>
+                <br>
+                <ul style="list-style-type:none;">
+                    <li><button class="button button3">Breakfast</button></li>
+                    <li><button class="button button3">Lunch</button></li>
+                    <li><button onclick="document.location = 'dinner.html'" class="button button3">Dinner</button></li>
+                    <li><button onclick="document.location = 'dessert.html'" class="button button3">Desserts</button></li>
+                    <li><button class="button button3">Appetizers</button></li>
+			        <br/>
+                    <li style="color:black; font-family:sans-serif; font-size:16px">Diet & Health</li>
+					<br/>
+                    <ul style="list-style-type:none;">
+                        <li><button class="button button3">Low Calorie</button></li>
+                        <li><button class="button button3">Low Fat</button></li>
+                        <li><button class="button button3">Diabetic</button></li>
+                    </ul>
+                    <br>
+                    <li style="color:black; font-family:sans-serif; font-size:16px">Cooking Style</li>
+                    <br/>
+                    <ul style="list-style-type:none;">
+                        <li><button class="button button3">Quick & Easy</button></li>
+                        <li><button class="button button3">Vegetarian</button></li>
+                        <li><button class="button button3">Vegan</button></li>
+                    </ul>
+                </ul>
+            </ul>
+		</nav>
+		
+	<article>
+	<div class = "Dinner-image"></div>
+	
+	<div class = "Dinner-text">
+		<h1>Dinner</h1>
+		<p>Choose from top-rated comfort food.Find your dinner star now!</p>
+	</div>
+	
+    <div class="sec-boxes">
+	
+      <div class="box">
+
+        <img src="images/Dinner1.jpg" alt = "Lasagna">
+		<h3>Lasagna</h3>
+		<br/>
+		<!---display rating with stars--->
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		
+		<p>The best lasagna is here! Layered with rich meat sauce.</p>
+		
+        <button class="btn" type="button" value="MORE">More</button>		
+      </div>
+	  
+      <div class="box">
+
+        <img src="images/Dinner2.jpg" alt = "Jajangmyeon">
+        <h3>Jajangmyeon</h3>
+		<br/>		
+		
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		
+		<p>Popular Korean noodle dish mixed in with black bean sauce.</p>
+		
+        <button class="btn" type="button" value="MORE">More</button>
+      </div>
+	  
+      <div class="box">
+
+        <img src="images/Dinner3.jpg" alt = "Spicy Kimchi Noodle Stir Fry">
+		<h3>Spicy Kimchi Noodle Stir-Fry</h3>
+		<br/>
+		
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star"></span>
+		
+		<p>This is a sweet, spicy kimchi stir-fry your whole family will love.</p>
+		
+        <button class="btn" type="button" value="MORE">More</button>
+      </div>
+	  
+      <div class="box">
+
+        <img src="images/Dinner4.jpg" alt = "Pasta With Classic Tomato Sauce">
+		<h3>Pasta with Classic Tomato Sauce</h3>
+
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		
+		<p>Pasta with 5 simple pantry ingredients to make delicious dinner.</p>
+		
+        <button class="btn" type="button" value="MORE">More</button>
+      </div>
+	  
+	<br/>
+	
+      <div class="box">
+
+        <img src="images/Dinner5.jpg" alt = "Spagheth With Green Vegitable">
+        <h3>Spaghetti with Green Vegetables</h3>
+		
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star"></span>
+		
+		<p>Suprisingly easy to make and ready in just over an hour.</p>
+		
+        <button class="btn" type="button" value="MORE">More</button>
+      </div>
+	  
+      <div class="box">
+
+        <img src="images/Dinner6.jpg" alt = "Spagheth With Green Vegitable">
+        <h3>Egg Noodles With Meatballs</h3>
+		<br/>
+		
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		
+		<p>Mozzarella-stuffed meatballs with egg noddles.</p>
+		
+        <button class="btn" type="button" value="MORE">More</button>
+      </div>
+	  
+      <div class="box">
+
+        <img src="images/Dinner7.jpg" alt = "Ramen">
+        <h3>Ramen</h3>
+		<br/>		
+		
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star"></span>
+		
+		<p>The easiest ramen your will ever make in less than 30 min.</p>
+		
+        <button class="btn" type="button" value="MORE">More</button>
+      </div>
+	  
+      <div class="box">
+	  
+		<img src="images/Dinner8.jpg" alt = "Pasta With Roasted Garlic Cream Sauce">
+		<h3>Pasta with Roasted Garlic Cream Sauce</h3>
+		
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<p>Garlicky spaghetti, this one's for the garlic lovers.</p>
+		
+        <button class="btn type="button" value="MORE">More</button>
+      </div>
+	  
+	<br/>
+	
+      <div class="box">
+
+        <img src="images/Dinner9.jpg" alt = "Shrimp Fried Rice">
+        <h3>Shrimp Fried Rice</h3>
+		<br/>
+		
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		
+		<p>Fried rice with shrimp works well with left-over cooked rice.</p>
+		
+        <button class="btn" type="button" value="MORE">More</button>
+      </div>
+	  
+      <div class="box">
+
+        <img src="images/Dinner10.jpg" alt = "Kottu">
+        <h3>Chicken Kottu</h3>
+        <br/>
+		
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		
+		<p>Use this to make the Sri Lankan popular street food at home.</p>
+		
+        <button class="btn" type="button" value="MORE">More</button>
+      </div>
+	  
+      <div class="box">
+
+        <img src="images/Dinner11.png" alt = "Shrimp Stir Fry Noodle">
+        <h3>Shrimp Garlic Noodle</h3>
+        <br/>	
+		
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star"></span>
+		
+		<p>This become the best garlic noodle you'll ever make under 30 minutes.</p>
+		
+        <button class="btn" type="button" value="MORE">More</button>
+      </div>
+	  
+      <div class="box">
+
+        <img src="images/Dinner12.jpg" alt = "Stew Salmon">
+        <h3>Stew Salmon</h3>
+		<br/>
+		
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star"></span>
+		
+		<p>Here is a recipe for a salmon stew with lots of vegetables. It's easy to prepare.</p>
+		
+        <button class="btn" type="button" value="MORE">More</button>
+      </div>
+	  
+    </div>	
+	
+    </article>	
+	</section>
+		
+	<footer>
+        <div class="fcolumn1">
+            <ul style="list-style-type:none;">
+                <li><button onclick="document.location = 'contactus.html'" class="button button4">Contact Us</button></li>
+                <li><button class="button button4">About Us</button></li>
+                <li><button class="button button4">Privacy Policy</button></li>
+            </ul>
+        </div>
+        <div class="fcolumn2">
+            <p style="color:white;font-size:20px;">Find Us On Social Media</p>
+            <p>
+                <a href="https://www.facebook.com/" class="fa fa-facebook" target="_blank"></a>
+                <a href="https://www.twitter.com/" class="fa fa-twitter" target="_blank"></a>
+                <a href="https://www.google.com/" class="fa fa-google" target="_blank"></a>
+                <a href="https://www.youtube.com/" class="fa fa-youtube" target="_blank"></a>
+                <a href="https://www.instagram.com/?h1=en" class="fa fa-instagram" target="_blank"></a>
+            </p>
+            <p style="color:white;font-size:20px;">@eliterecipes.com</p>
+        </div>
+		
+        <div class="fcolumn3">
+            <p style="color:white;font-size:20px;">Subscribe for Our Newsletter</p>
+            <input class="searchBar" type="text" placeholder="Enter Your Email">
+        </div>
+		
+        <div class="fcolumn4">
+            <p style="color:white;font-size:20px;">New Kandy Road, Malabe</p>
+
+            <p style="color:white;font-size:20px;">All Rights Reserved</p>
+        </div>
+		
+    </footer>
+
+</body>
+
+</html>

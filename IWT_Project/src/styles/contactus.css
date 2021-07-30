@@ -1,0 +1,69 @@
+/*style contact us page*/
+article {
+    float: left;
+    padding: 0px;
+    width: 75%;
+    height: 1505px;
+	background-image:url("../images/cu.jpg");
+	background-repeat:no repeat;
+}
+
+/*style heading of contact us page*/
+.cu-text{
+	text-align:center;
+	position: absolute;
+	top: 55%;
+	left: 45%;
+	font-size:25px;
+	font-style:oblique;
+	font-weight: bold;
+	font-family:Times New Roman;
+	color:white;
+}
+
+/*style form*/
+.wrap{
+	max-width: 75%;
+	border-radius: 20px;
+	margin: auto;
+	background: black;
+	box-sizing: border-box;
+	padding: 100px;
+	color:#fff;
+	margin-top:430px;
+	opacity:0.8;
+	background-color:black;
+    font-size:14px;
+	padding-top:5px;
+	text-align: left-side;
+	margin-left: 200px;
+    font-size:20px;
+	font-weight: bold;
+	font-family:Times New Roman;
+}
+
+/*style submit button*/
+input[type=submit]{
+	height:30px;
+	background:black;
+	border:0;
+	color:white;
+	font-weight: bold;
+    font-size:20px;
+	font-weight: bold;
+	font-family:Times New Roman;
+	
+}
+
+/*change hover color in submit button*/
+input[type=submit]:hover{
+	background: #003366;
+	opacity: 0.7;
+}
+
+
+
+
+
+
+
